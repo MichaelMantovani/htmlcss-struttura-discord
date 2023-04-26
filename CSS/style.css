@@ -20,7 +20,9 @@
   --bgcolor-light-blue: rgb(32,178,170);
   --bgcolor-aquamarine: rgb(127,255,212);
   --bgcolor-dark-blue: rgb(0,0,139);
-  --bgcolor-header: rgb(173,216,230)
+  --bgcolor-header: rgb(173,216,230);
+  --large-width: calc(1200px / 3 * 2);
+  --small-width: calc(1200px / 3);
 }
 
 
@@ -62,20 +64,23 @@ header{
 
 /* MAIN */
 
-.first-row{
+.row{
   height: 500px;
-  background-color: var(--bgcolor-dark-blue);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.first-row-content{
+.first-row-section{
   width: 50%;
   height: 80%;
   background-color: var(--bgcolor-purple);
 }
 
+.content{
+  height: 80%;
+  display: flex;
+}
 
 
 
@@ -95,3 +100,26 @@ header{
   flex-grow: 1;
 }
 
+.bgcolor-dark-blue{
+  background-color: var(--bgcolor-dark-blue);
+}
+
+.large-width{
+  width: var(--large-width);
+}
+
+.small-width{
+  width: var(--small-width);
+}
+
+.bgcolor-blue{
+  background-color: var(--bgcolor-blue);
+}
+
+.bgcolor-pink{
+  background-color: var(--bgcolor-pink);
+}
+
+.bgcolor-grey{
+  background-color: var(--bgcolor-grey);
+}
