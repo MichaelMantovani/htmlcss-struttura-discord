@@ -77,12 +77,18 @@ header{
   background-color: var(--bgcolor-purple);
 }
 
-.content{
-  height: 80%;
+
+.fifth-row{
+  height: 1000px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
+.fifth-row-content{
+  height: 80%;
+  background-color: var(--bgcolor-green);
+}
 
 
 /* UTILITIES */
@@ -100,8 +106,9 @@ header{
   flex-grow: 1;
 }
 
-.bgcolor-dark-blue{
-  background-color: var(--bgcolor-dark-blue);
+.content{
+  height: 80%;
+  display: flex;
 }
 
 .large-width{
@@ -111,6 +118,12 @@ header{
 .small-width{
   width: var(--small-width);
 }
+
+
+.bgcolor-dark-blue{
+  background-color: var(--bgcolor-dark-blue);
+}
+
 
 .bgcolor-blue{
   background-color: var(--bgcolor-blue);
