@@ -9,11 +9,64 @@
 /* CUSTOM PROPERTIES */
 
 
+:root{
+  --bgcolor-pink: rgb(255,192,203);
+  --bgcolor-blue: rgb(30,144,255);
+  --bgcolor-green: rgb(34,139,34);
+  --bgcolor-purple: rgb(238,130,238);
+  --bgcolor-red: rgb(240,128,128);
+  --bgcolor-yellow: rgb(218,165,32);
+  --bgcolor-grey: rgb(211,211,211);
+  --bgcolor-light-blue: rgb(32,178,170);
+  --bgcolor-aquamarine: rgb(127,255,212);
+  --bgcolor-dark-blue: rgb(0,0,139);
+  --bgcolor-header: rgb(173,216,230)
+}
+
 
 
 /* GENERALS */
 
+header{
+  height: 100px;
+  background-color: var(--bgcolor-header);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.header{
+  background-color: var(--bgcolor-yellow);
+  display: flex;
+}
 
+.hd-nav{
+  display: flex;
+  justify-content: center;
+}
+
+.login{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* POTREI CREARE UNA CLASSE UTILITIES TUTTAVIA PER COLPA DI .BD-BLACK SPORCHEREI TROPPO L'HTML, QUINDI IN QUESTO CASO PREFERISCO FARE IN QUESTO MODO */
+.logo, .hd-nav, .login{
+  padding: 4px;
+}
 
 /* UTILITIES */
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.bd-black{
+  border: 1px dashed black;
+}
+
+.flex-grw-1{
+  flex-grow: 1;
+}
+
