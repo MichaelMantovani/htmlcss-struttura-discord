@@ -27,14 +27,18 @@
 
 /* GENERALS */
 
+
+/* HEADER */
+
 header{
   height: 100px;
   background-color: var(--bgcolor-header);
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
+  }
+  
+  
 .header{
   background-color: var(--bgcolor-yellow);
   display: flex;
@@ -50,10 +54,31 @@ header{
   justify-content: flex-end;
 }
 
-/* POTREI CREARE UNA CLASSE UTILITIES TUTTAVIA PER COLPA DI .BD-BLACK SPORCHEREI TROPPO L'HTML, QUINDI IN QUESTO CASO PREFERISCO FARE IN QUESTO MODO */
+/* POTREI ANCHE DARE UN HEIGHT ALLA CLASSE LOGO, NAV E LOGIN. */
 .logo, .hd-nav, .login{
   padding: 4px;
 }
+
+
+/* MAIN */
+
+.first-row{
+  height: 500px;
+  background-color: var(--bgcolor-dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-row-content{
+  width: 50%;
+  height: 80%;
+  background-color: var(--bgcolor-purple);
+}
+
+
+
+
 
 /* UTILITIES */
 
