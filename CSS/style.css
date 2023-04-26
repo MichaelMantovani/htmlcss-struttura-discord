@@ -21,6 +21,7 @@
   --bgcolor-aquamarine: rgb(127,255,212);
   --bgcolor-dark-blue: rgb(0,0,139);
   --bgcolor-header: rgb(173,216,230);
+  --bgcolor-black: rgb(35,39,42);
   --large-width: calc(1200px / 3 * 2);
   --small-width: calc(1200px / 3);
 }
@@ -78,7 +79,7 @@ header{
 }
 
 
-.fifth-row{
+.fifth-main-section{
   height: 1000px;
   display: flex;
   justify-content: center;
@@ -90,6 +91,39 @@ header{
   background-color: var(--bgcolor-green);
 }
 
+
+/* FOOTER */
+
+.large-column{
+  width: calc(1200px / 6 *2);
+  height: 80%;
+  background-color: var(--bgcolor-red);
+}
+
+.small-column{
+  width: calc(1200px / 6);
+  height: 80%;
+  background-color: var(--bgcolor-light-blue);
+}
+
+.second-footer-section{
+  height: 150px;
+  margin-top: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content{
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo, .ft-nav{
+  padding: 4px;
+}
 
 /* UTILITIES */
 
@@ -135,4 +169,13 @@ header{
 
 .bgcolor-grey{
   background-color: var(--bgcolor-grey);
+}
+
+.bgcolor-black{
+  background-color: var(--bgcolor-black)
+}
+
+
+.bgcolor-aquamarine{
+  background-color: var(--bgcolor-aquamarine);
 }
