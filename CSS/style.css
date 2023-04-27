@@ -99,34 +99,28 @@
 /* HEADER */
 
 header{
-  height: 100px;
   background-color: var(--bgcolor-header);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  }
+
+  .navbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
-  
-.header{
-  background-color: var(--bgcolor-yellow);
-  display: flex;
-}
+  .navbar div{
+    background-color: var(--bgcolor-yellow);
+    flex-basis: 34%;
+  }
 
-.hd-nav{
-  display: flex;
-  justify-content: center;
-}
+  .navmenu{
+    text-align: center;
+  }
 
-.login{
-  display: flex;
-  justify-content: flex-end;
-}
-
-/* POTREI ANCHE DARE UN HEIGHT ALLA CLASSE LOGO, NAV E LOGIN. */
-.logo, .hd-nav, .login{
-  padding: 4px;
-}
-
+  .navlogin{
+    text-align: right;
+  }
 
 /* MAIN */
 
